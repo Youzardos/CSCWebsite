@@ -25,7 +25,7 @@
  
             /* Si le formulaire n'est pas posté de notre site on renvoie
             * vers la page d'accueil */
-            if($_SERVER['HTTP_REFERER'] != 'http://www.csc.ma/contact.php')
+            if($_SERVER['HTTP_REFERER'] != 'http://www.csc.ma/contact.html')
             {
               header('Location: http://www.csc.ma/');
             }
